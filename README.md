@@ -1,5 +1,9 @@
 # Simple strategy game by using REACT.
 
+https://dovtutis-react-strategy-game.netlify.app/
+
+Task:
+
 lets make strategy building game
 make a game where player can buy and build buildings
 every building costs gold, wood and stone
