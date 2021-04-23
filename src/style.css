@@ -1,0 +1,157 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat';
+    min-height: 100vh;
+}
+
+.shop-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ededed;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#message-box {
+    font-size: 30px;
+    color: tomato;
+    font-weight: 600;
+}
+
+.shop-text {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.resource-container {
+    display: flex;
+}
+
+.resource-box {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.resouce-image {
+    width: 60px;
+    height: 60px;
+}
+
+.resource-text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    margin: 0 10px;
+}
+
+.buildings-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.building-card {
+    height: 200px;
+    width: 500px;
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.4);
+    padding: 0 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.building-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.info-container {
+    padding: 0 10px;
+    display: flex;
+}
+
+.info-container div span {
+    font-size: 16px;
+    margin: 3px 0;
+}
+
+.text-container {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy-button {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.player-building-card {
+    height: 300px;
+    width: 350px;
+    padding: 8px;
+    margin: 0 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-building-card img {
+    width: 150px;
+    height: 150px;
+}
+
+.player-building-card button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    transition: .3s;
+    background-color: #ededed;
+}
+
+.player-building-card button:hover {
+    transform: scale(.98);
+    background-color: #c2c2c2;
+}
+
+.player-building-card-info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.player-building-card-info-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
